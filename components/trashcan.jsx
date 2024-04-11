@@ -71,25 +71,6 @@ const TrashCan = () => {
           </View>
         </View>
       </Card>
-
-      <View style={styles.janitorCardsContainer}>
-        <Card style={styles.cardJanitor}>
-          <View style={styles.dutyListContainer}>
-            <Text style={styles.dutyListTitle}>Janitorial Duty</Text>
-            <Text style={styles.dutyItem}>Name: John Doe</Text>
-            <Text style={styles.dutyItem}>Cell#: 09234312341</Text>
-            <Text style={styles.dutyItem}>Desitgnation: UC-PRI 5th flr</Text>
-          </View>
-        </Card>
-        <Card style={styles.cardJanitor}>
-          <View style={styles.dutyListContainer}>
-            <Text style={styles.dutyListTitle}>Janitorial Duty</Text>
-            <Text style={styles.dutyItem}>Name: Lebron James</Text>
-            <Text style={styles.dutyItem}>Cell#: 09234312341</Text>
-            <Text style={styles.dutyItem}>Desitgnation: UC-PRI 10th flr</Text>
-          </View>
-        </Card>
-      </View>
     </View>
   );
 };
@@ -164,30 +145,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
     textAlign: 'center',
-  },
-  dutyListContainer: {
-    marginTop: 20,
-    paddingHorizontal: 20,
-  },
-  dutyListTitle: {
-    fontSize: 15,
-    fontWeight: 'bold',
-    marginBottom: 10,
-  },
-  dutyItem: {
-    fontSize: 14,
-    marginBottom: 5,
-  },
-  cardJanitor: {
-    width: 200,
-    height: 220,
-    marginBottom: 10,
-    marginRight: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#ccc', // Color of the border
-  },
-  janitorCardsContainer: {
-    flexDirection: 'row',
   },
 });
 
